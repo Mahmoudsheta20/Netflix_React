@@ -1,0 +1,47 @@
+.row_postr {
+    width: 100%;
+    object-fit: contain;
+    max-height: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+    transition: transform 450ms;
+}
+
+.row_postrs {
+    display: flex;
+    margin: 0 10px 0 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.row_postr:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.row_posterlarg:hover {
+    transform: scale(1.09);
+}
+
+.row_posterlarg {
+    max-height: 250px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red;
+}
+
+.slick-prev {
+    left: 0;
+    z-index: 2;
+}
+
+.slick-next {
+    right: 0;
+    z-index: 2;
+}
+
+.row_name {}
+
+.row_name p {}
